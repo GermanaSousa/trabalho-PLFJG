@@ -1,0 +1,125 @@
+/* ESTILO GERAL */
+*{
+    margin: 40;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*cor do menu(inicio...)e linha de baixo*/
+header a{
+    color:darkgrey; 
+    text-decoration: none;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+ padding: 10px 40px;
+ font-size: 18px;
+ font-weight: 600;
+ background-color: blueviolet;
+ border: 0;
+ border-radius: 30px;
+ cursor: pointer;
+}
+
+@media (max-width:768px){
+    nav ul li{
+        display:block;
+        margin: 10px 0;
+    }
+}
+
+body{
+    padding: 10px;
+}
+
+@media (max-width: 480px){
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+p{
+    text-align: center;
+    color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    color:antiquewhite}
+    
+    h2{
+        text-align: center;
+        color: antiquewhite;
+    }
+
+    li{
+        text-align: center;
+        color: antiquewhite;
+    }
+
+    *{
+        margin-bottom: 20px;
+     }
+
+ul{
+    list-style-type: none;
+  }
+
+button :hover{
+    background-color: aliceblue;
+}
+ 
+
+header {
+    background-color: purple;
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin: 10px;
+}
